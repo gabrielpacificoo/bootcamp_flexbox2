@@ -1,0 +1,112 @@
+/* Exercicio A */
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.base1 {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.base2 {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    margin: 15px auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    justify-content: flex-start;
+}
+
+.container2 {
+    justify-content: flex-end;
+}
+
+.container3 {
+    justify-content: center;
+}
+
+.container4 {
+    justify-content: space-between;    
+}
+.container5 {
+    justify-content: space-around;
+}
+.container6 {
+    justify-content:space-evenly ;
+}
+
+/* Exercicio B */
+
+.container-exercicioB .box1 {
+    order: 4;
+}
+
+.container-exercicioB .box2 {
+    order: 3;
+}
+
+.container-exercicioB .box3 {
+    order: 2;
+}
+
+.container-exercicioB .box4 {
+    order: 1;
+}
+
+.desafio .box1 {
+    order: 4;
+}
+
+.desafio .box2 {
+    order: 3;
+}
+
+.desafio .box3 {
+    order: 2;
+}
+
+.desafio .box4 {
+    order: 1;
+}
